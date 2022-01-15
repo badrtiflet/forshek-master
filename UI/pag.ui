@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>605</width>
+    <height>573</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="main">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 9pt &quot;Arial Black&quot;
+rgb(0, 0, 127)
+</string>
+   </property>
+   <property name="text">
+    <string>MAIN</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="page3">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>10</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 9pt &quot;Arial Black&quot;
+rgb(0, 0, 127)
+</string>
+   </property>
+   <property name="text">
+    <string>PAGE1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>10</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 9pt &quot;Arial Black&quot;
+rgb(0, 0, 127)
+</string>
+   </property>
+   <property name="text">
+    <string>PAGE2</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>721</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>ville</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Moyenne de prix</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QToolButton" name="toolButton">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>88</y>
+     <width>191</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Afficher la moyenne de prix par ville</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>36</x>
+     <y>88</y>
+     <width>204</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Iphone</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Samsung</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Oppo</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Huawei</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nokia</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Wiko</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sony</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Motorola</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LG</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Htc</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Google</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Blackberry</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Alcatel</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
